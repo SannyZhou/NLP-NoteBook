@@ -14,10 +14,12 @@
 
 ### Pretrained Language Model
 #### ELMo
+Paper: [Deep contextualized word representations](https://arxiv.org/pdf/1802.05365.pdf)<br>
+
 1. Bidirectional language model
 2. residual connection
 3. character-level embedding
-[paper]Deep contextualized word representations(https://arxiv.org/pdf/1802.05365.pdf)
+
 
 #### GPT
 [paper]
