@@ -9,8 +9,8 @@
 2. [Distributed Representations of Words and Phrases and Their Compositionality](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
 
 #### GloVe
-(https://github.com/stanfordnlp/GloVe)<br>
-[paper] https://nlp.stanford.edu/pubs/glove.pdf
+1. [Source Code](https://github.com/stanfordnlp/GloVe)
+2. [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/pubs/glove.pdf)
 
 ### Pretrained Language Model
 #### ELMo
@@ -18,18 +18,23 @@
 2. residual connection
 3. character-level embedding
 [paper]Deep contextualized word representations(https://arxiv.org/pdf/1802.05365.pdf)
+
 #### GPT
 [paper]
+
 #### Bert
 [paper]
+
 #### GPT2
 [paper]
+
 #### XLNet
 [paper]
+
 #### RoBerta
-[paper]RoBERTa: A Robustly Optimized BERT Pretraining Approach (https://arxiv.org/pdf/1907.11692.pdf)
-[toolkit] FAIRSEQ: A Fast, Extensible Toolkit for Sequence Modeling (https://arxiv.org/pdf/1904.01038.pdf)
-[github] https://github.com/pytorch/fairseq
+1. Paper: [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf)<br>
+2. toolkit:[FAIRSEQ: A Fast, Extensible Toolkit for Sequence Modeling](https://arxiv.org/pdf/1904.01038.pdf)
+3. [github](https://github.com/pytorch/fairseq)
 
 
 
@@ -41,23 +46,21 @@
 4. Paraphrase Identification (detection)
 
 ### Convolution Neural Network in NLP
-N-gram feature of tokens (word/character)
-[paper] Convolutional Neural Networks for Sentence Classification (https://arxiv.org/pdf/1408.5882.pdf)
+N-gram feature of tokens (word/character)<br>
+Paper: [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/pdf/1408.5882.pdf)
 
 ### Recurrent Neural Network in NLP
-Long-term dependency feature in Text
-[paper] Recurrent Convolutional Neural Networks for Text Classification (https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9745/9552)
+Long-term dependency feature in Text <br>
+Paper: [Recurrent Convolutional Neural Networks for Text Classification](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9745/9552)
 
 ### CNN + RNN
-N-gram feature of tokens + Contextual feature
-[paper] A C-LSTM Neural Network for Text Classification (https://arxiv.org/pdf/1511.08630.pdf)
+N-gram feature of tokens + Contextual feature <br>
+Paper:[A C-LSTM Neural Network for Text Classification](https://arxiv.org/pdf/1511.08630.pdf)
 
 ### ELMo (BiRNN) => Pretrained Feature
 [paper]
 
 ### Transformer
-
-
 
 
 ## Sequence2Sequence (Encoder-Decoder)
@@ -68,7 +71,7 @@ N-gram feature of tokens + Contextual feature
 2. Text Summarization
 3.  Grammar Error Correction
 4. Question & Answer ( Q&A)
-5.
+
 ### Models
 #### Seq2Seq Based on RNN
 #### Attention
@@ -83,6 +86,7 @@ N-gram feature of tokens + Contextual feature
 ### Parsing
 1. Dependency Parsing
 2. Constituency Parsing
+
 ### Semantic Role Labeling
 ### Named Entity Recognition
 ### Paraphrase Identification
