@@ -22,23 +22,48 @@ Paper: [Deep contextualized word representations](https://arxiv.org/pdf/1802.053
 
 
 #### GPT
-[paper]
+[Improving Language Understanding
+by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
+[github](https://github.com/huggingface/pytorch-openai-transformer-lm)
+1. left to right
+2. transformer encoder for finetuning, multi-layer decoder for language model
+3. BPE(byte pair encoding) token
 
 #### Bert
-[paper]
+[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+](https://arxiv.org/pdf/1810.04805.pdf)
+[github](https://github.com/google-research/bert)
+1. bidirectional LM (mask)
+2. word-level token
+3. LM Multi-task with Next Sentence Predicition
 
 #### GPT2
-[paper]
+[Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)
+[github](https://github.com/openai/gpt-2)
+1. left-to-right
+2. larger and deeper than gpt
+3. BPE token
+4. few modification in Transformer (position of Layer-Normalization .etc)
 
 #### XLNet
-[paper]
+[XLNet: Generalized Autoregressive Pretraining for Language Understanding
+](https://arxiv.org/abs/1906.08237)
+1. Bidirectional LM by Random Permutation instead of Mask (better for text generation task, consistent in train and test)
+2. Two different Attention
+3. Delete NSE
 
 #### RoBerta
-1. Paper: [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf)<br>
-2. toolkit:[FAIRSEQ: A Fast, Extensible Toolkit for Sequence Modeling](https://arxiv.org/pdf/1904.01038.pdf)
-3. [github](https://github.com/pytorch/fairseq)
+[RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf)<br>
+toolkit:[FAIRSEQ: A Fast, Extensible Toolkit for Sequence Modeling](https://arxiv.org/pdf/1904.01038.pdf)
+[github](https://github.com/pytorch/fairseq)
+1. Bidirectional LM with different mask in various epoch (more robust than origin mask method of bert)
+2. Experiment on NSE with various kind of input and objectives. And prove that removing NSE loss could slightly improve performance of downstream tasks.
 
 
+#### KnowBert
+[Knowledge Enhanced Contextual Word Representations](https://arxiv.org/pdf/1909.04164.pdf)
+===
+TODO
 
 ## Classification
 ### Tasks
@@ -60,7 +85,7 @@ N-gram feature of tokens + Contextual feature <br>
 Paper:[A C-LSTM Neural Network for Text Classification](https://arxiv.org/pdf/1511.08630.pdf)
 
 ### ELMo (BiRNN) => Pretrained Feature
-[paper]
+[Deep contextualized word representations](https://arxiv.org/abs/1802.05365)
 
 ### Transformer
 
